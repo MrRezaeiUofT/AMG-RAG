@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Paper](https://img.shields.io/badge/Paper-arXiv-red.svg)](https://arxiv.org/abs/your-paper-id)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-red.svg)](https://arxiv.org/abs/2502.13010)
 
 ## Overview
 
@@ -199,11 +199,15 @@ We welcome contributions! Please follow these steps:
 If you use AMG-RAG in your research, please cite our paper:
 
 ```bibtex
-@article{amg-rag-2024,
-  title={AMG-RAG: Agentic Medical Graph-RAG for Enhanced Medical Question Answering},
-  author={[Author Names]},
-  journal={arXiv preprint arXiv:[paper-id]},
-  year={2024}
+@misc{rezaei2025agenticmedicalknowledgegraphs,
+      title={Agentic Medical Knowledge Graphs Enhance Medical Question Answering: Bridging the Gap Between LLMs and Evolving Medical Knowledge}, 
+      author={Mohammad Reza Rezaei and Reza Saadati Fard and Jayson L. Parker and Rahul G. Krishnan and Milad Lankarany},
+      year={2025},
+      eprint={2502.13010},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.13010}, 
+}r={2024}
 }
 ```
 
