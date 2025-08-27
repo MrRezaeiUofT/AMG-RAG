@@ -5,9 +5,8 @@
 [![Paper](https://img.shields.io/badge/Paper-arXiv-red.svg)](https://arxiv.org/abs/2502.13010)
 
 ## Overview
-
 **AMG-RAG (Agentic Medical Graph-RAG)** is a comprehensive framework that automates the construction and continuous updating of Medical Knowledge Graphs (MKGs), integrates reasoning, and retrieves current external evidence for medical Question Answering (QA). Our approach addresses the challenge of rapidly evolving medical knowledge by dynamically linking new findings and complex medical concepts.
-
+![AMG-RAG Demo](demo.gif)
 ## Key Features
 
 - **Automated Knowledge Graph Construction**: Builds and continuously updates Medical Knowledge Graphs
@@ -207,7 +206,6 @@ If you use AMG-RAG in your research, please cite our paper:
       archivePrefix={arXiv},
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2502.13010}, 
-}r={2024}
 }
 ```
 
