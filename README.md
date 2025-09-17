@@ -293,35 +293,11 @@ AMG-RAG/
 │   └── PubMedQA/          # PubMedQA dataset
 ├── results/                # Output results
 ├── new_VDB/               # Vector database storage
-├── Sandbox/               # Demo GIFs and visualizations
 ├── requirements.txt        # Python dependencies
 ├── .env                   # Environment variables
 └── README.md             # This file
 ```
 
-## Key Improvements in AMG-with-KG.py
-
-The enhanced version (`AMG-with-KG.py`) includes several major improvements:
-
-1. **Enhanced Entity Extraction**:
-   - Structured output with relevance scoring (1-10 scale)
-   - Context-aware entity descriptions
-   - Confidence scoring based on relevance and external sources
-
-2. **Advanced Relationship Analysis**:
-   - Bidirectional relationship extraction (A→B and B→A)
-   - Medical relationship types (treats, causes, symptom_of, risk_factor_for, etc.)
-   - Evidence-based confidence scoring
-
-3. **Entity Summarization**:
-   - LLM-generated enhanced summaries
-   - Relevance-based confidence updates
-   - Context integration for better understanding
-
-4. **Improved Error Handling**:
-   - Robust JSON parsing for complex relationship structures
-   - Graceful fallbacks for missing components
-   - Better error messages and debugging information
 
 ## New Features in v2.0
 
@@ -331,27 +307,7 @@ The enhanced version (`AMG-with-KG.py`) includes several major improvements:
 - **Context Integration**: PubMed and Wikipedia context for better understanding
 - **Entity Summarization**: LLM-generated enhanced descriptions
 
-### Improved Medical Reasoning
-- **Structured Output**: Consistent JSON parsing for reliable results
-- **Evidence-Based Scoring**: Confidence based on multiple evidence sources
-- **Graph Exploration**: Path-based reasoning through knowledge graph
-- **Medical Relationship Types**: Specialized medical relationship classification
 
-### Better Performance
-- **Faster Processing**: Optimized entity extraction and relationship analysis
-- **Higher Accuracy**: 95%+ confidence for correct medical answers
-- **Rich Graphs**: Average 8 entities and 52 relationships per question
-- **Robust Error Handling**: Graceful fallbacks and better debugging
-
-## Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## Citation
 
