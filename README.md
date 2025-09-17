@@ -28,15 +28,6 @@ Our evaluations on standard medical QA benchmarks demonstrate superior performan
 
 AMG-RAG surpasses both comparable models and those 10 to 100 times larger, while enhancing interpretability for medical queries.
 
-### Enhanced Knowledge Graph Performance
-
-The improved AMG-RAG system with enhanced knowledge graph creation shows:
-
-- **Entity Extraction**: 95% accuracy in identifying relevant medical entities
-- **Relationship Analysis**: Comprehensive bidirectional relationship mapping
-- **Confidence Scoring**: High-confidence predictions (95%+ for correct answers)
-- **Processing Speed**: ~107 seconds for comprehensive analysis including KG construction
-- **Graph Richness**: Average of 8 entities and 52 relationships per question
 
 ## Architecture
 
