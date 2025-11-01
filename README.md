@@ -12,7 +12,7 @@
 
 ## 🚀 Key Features
 
-- **🧠 Enhanced Knowledge Graph Construction**: Advanced entity extraction with relevance scoring (1-10 scale)
+- **🧠 Enhanced Knowledge Graph Construction**: Advanced entity extraction with confidence scoring (1-10 scale)
 - **🔄 Bidirectional Relationship Analysis**: Comprehensive relationship mapping with confidence scoring
 - **🎯 Context-Aware Entity Processing**: LLM-generated descriptions with medical context integration
 - **📚 Multi-source Evidence Retrieval**: Integrates PubMed search, Wikipedia, and vector database retrieval
