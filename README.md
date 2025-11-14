@@ -66,11 +66,13 @@ The enhanced AMG-RAG system consists of six key components:
 
 ## 🛠️ Installation
 
+
 ### Prerequisites
 
 - Python 3.8+
 - OpenAI API key (or Ollama for local inference)
 - PubMed API key (optional, for higher rate limits)
+
 
 ### Quick Install
 
