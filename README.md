@@ -225,14 +225,27 @@ AMG-RAG/
 If you use AMG-RAG in your research, please cite our paper:
 
 ```bibtex
-@misc{rezaei2025agenticmedicalknowledgegraphs,
-      title={Agentic Medical Knowledge Graphs Enhance Medical Question Answering: Bridging the Gap Between LLMs and Evolving Medical Knowledge}, 
-      author={Mohammad Reza Rezaei and Reza Saadati Fard and Jayson L. Parker and Rahul G. Krishnan and Milad Lankarany},
-      year={2025},
-      eprint={2502.13010},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2502.13010}, 
+@inproceedings{rezaei-etal-2025-agentic,
+    title = "Agentic Medical Knowledge Graphs Enhance Medical Question Answering: Bridging the Gap Between {LLM}s and Evolving Medical Knowledge",
+    author = "Rezaei, Mohammad Reza  and
+      Fard, Reza Saadati  and
+      Parker, Jayson Lee  and
+      Krishnan, Rahul G  and
+      Lankarany, Milad",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.679/",
+    doi = "10.18653/v1/2025.findings-emnlp.679",
+    pages = "12682--12701",
+    ISBN = "979-8-89176-335-7",
+    abstract = "Large Language Models (LLMs) have greatly advanced medical Question Answering (QA) by leveraging vast clinical data and medical literature. However, the rapid evolution of medical knowledge and the labor-intensive process of manually updating domain-specific resources can undermine the reliability of these systems. We address this challenge with Agentic Medical Graph-RAG (AMG-RAG), a comprehensive framework that automates the construction and continuous updating of Medical Knowledge Graph (MKG), integrates reasoning, and retrieves current external evidence from the MKG for medical QA.Evaluations on the MEDQA and MEDMCQA benchmarks demonstrate the effectiveness of AMG-RAG, achieving an F1 score of 74.1{\%} on MEDQA and an accuracy of 66.34{\%} on MEDMCQA{---}surpassing both comparable models and those 10 to 100 times larger. By dynamically linking new findings and complex medical concepts, AMG-RAG not only boosts accuracy but also enhances interpretability for medical queries, which has a critical impact on delivering up-to-date, trustworthy medical insights."
 }
 ```
 
@@ -248,13 +261,6 @@ This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENS
 - Enhanced with [NetworkX](https://networkx.org/) for knowledge graph operations
 - Benchmarked on [MEDQA](https://github.com/jind11/MedQA) and [MEDMCQA](https://medmcqa.github.io/) datasets
 
-## 🆘 Support
-
-For questions, issues, or support:
-
-1. Check the [Issues](https://github.com/MrRezaeiUofT/AMG-RAG/issues) page
-2. Create a new issue with detailed information
-3. Contact the maintainers
 
 ---
 
