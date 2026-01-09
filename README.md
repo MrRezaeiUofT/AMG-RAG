@@ -259,7 +259,7 @@ This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENS
 - Uses [Hugging Face Transformers](https://huggingface.co/transformers/) for embeddings
 - Integrates [PubMed API](https://www.ncbi.nlm.nih.gov/home/develop/api/) for medical literature retrieval
 - Enhanced with [NetworkX](https://networkx.org/) for knowledge graph operations
-- Benchmarked on [MEDQA](https://github.com/jind11/MedQA) and [MEDMCQA](https://medmcqa.github.io/) datasets
+- Benchmarked on [MEDQA](https://github.com/jind11/MedQA) and [MEDMCQA](https://medmcqa.github.io/) medical datasets
 
 
 ---
