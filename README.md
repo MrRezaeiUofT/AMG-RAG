@@ -262,6 +262,3 @@ This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENS
 - Benchmarked on [MEDQA](https://github.com/jind11/MedQA) and [MEDMCQA](https://medmcqa.github.io/) medical datasets
 
 
----
-
-⚠️ **Note**: This is research software. Please validate results thoroughly before any clinical application.
